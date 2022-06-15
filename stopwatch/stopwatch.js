@@ -19,3 +19,9 @@ function clockincrease() {
     clock = clock + 1
     print()
 }
+function reset () {
+    clock= 0
+    clearInterval(interval)
+    interval = undefined
+    print()
+}
